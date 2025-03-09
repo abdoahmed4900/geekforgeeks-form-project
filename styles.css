@@ -1,0 +1,58 @@
+html {
+    background-color: #05c36b;
+    font-size: 2vmax;
+}
+
+div {
+    padding: 2% 0;
+    box-shadow: 0px 0px 5px 10px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4vmin;
+}
+
+.form {
+    background-color: white;
+    width: 90%;
+    height: 80%;
+    margin: 5%;
+}
+
+
+input,
+textarea {
+    width: 90%;
+    margin: 0 0 0% 5%;
+    display: block;
+    resize: vertical;
+    line-height: 3.5vh;
+}
+
+label {
+    margin: 2% 0% 3% 4.7%;
+    display: block;
+    font-size: inherit;
+}
+
+select {
+    width: 92%;
+    margin: 0px 1% 0px 4.5%;
+    height: 5vh;
+}
+
+input[type="radio"],
+[type="checkbox"] {
+    width: 3%;
+    display: inline;
+    margin: 0 0 2% 5%;
+}
+
+input[type="button"] {
+    background-color: #05c36b;
+    width: 92.2%;
+    height: 10vh;
+    font-size: 3.2vw;
+}
